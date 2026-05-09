@@ -22,7 +22,6 @@ df = pd.DataFrame(data)
 print(df)
 
 # visualizations
-import matplotlib.pyplot as plt
 plt.figure(figsize=(8,6))
 plt.scatter(df['TV_advertising'],df['Sales'])
 plt.xlabel("TV advertising Budget")
